@@ -1,0 +1,34 @@
+version: '3.6'
+services:
+  activemq:
+    container_name: activemq
+    image: rmohr/activemq:latest
+    ports:
+    - 8161:8161
+    - 61616:61616
+  dodgygeezers:
+    build: dodgygeezers
+    environment:
+      - PROTOCOL=failover://tcp://activemq:61616
+    depends_on:
+      - activemq
+  auldfellas:
+    build: auldfellas
+    environment:
+      - PROTOCOL=failover://tcp://activemq:61616
+    depends_on:
+      - activemq
+  girlsallowed:
+    build: girlsallowed
+    environment:
+      - PROTOCOL=failover://tcp://activemq:61616
+    depends_on:
+      - activemq
+  broker:
+    build: broker
+    depends_on:
+      - activemq
+    environment:
+      - PROTOCOL=failover://tcp://activemq:61616
+  
+

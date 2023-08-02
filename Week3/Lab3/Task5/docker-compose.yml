@@ -1,0 +1,24 @@
+version: '3'
+services:
+  broker:
+    build: broker
+    ports: 
+      - 9012:9012
+    depends_on:
+      - auldfellas
+      - dodgygeezers
+      - girlsallowed
+    environment:
+      - HOSTS=http://auldfellas:9001/quotations http://dodgygeezers:9002/quotations http://girlsallowed:9003/quotations
+  auldfellas:
+    build: auldfellas
+    ports: 
+      - 9001
+  dodgygeezers:
+    build: dodgygeezers
+    ports: 
+     - 9002
+  girlsallowed:
+    build: girlsallowed
+    ports: 
+      - 9003

@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+    broker:
+        image: rmohr/activemq:latest
+        ports: 
+            - 8161:8161
+            - 61616:61616
+    consumer:
+        build: consumer
+        environment: 
+            HOST: broker
+        depends_on:
+            - broker
+    producer:
+        build: producer
+        environment: 
+            HOST: broker
+        depends_on:
+            - broker
+        

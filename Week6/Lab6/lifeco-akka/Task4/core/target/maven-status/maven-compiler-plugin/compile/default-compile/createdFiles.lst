@@ -1,0 +1,9 @@
+service/message/OfferMessage.class
+service/message/ClientInfoMessage.class
+service/message/MySerializable.class
+service/core/ClientInfo.class
+service/message/QuotationMessage.class
+service/core/AbstractQuotationService.class
+service/core/Quotation.class
+service/message/ClientMessage.class
+service/message/RegisterMessage.class

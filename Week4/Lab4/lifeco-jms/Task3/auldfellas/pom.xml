@@ -1,0 +1,33 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>lifeco-jms</groupId>
+    <artifactId>auldfellas</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties> 
+
+    <dependencies>
+        <dependency>
+            <groupId>lifeco-jms</groupId>
+            <artifactId>core</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
+        <dependency> 
+            <groupId>org.apache.activemq</groupId> 
+            <artifactId>activemq-core</artifactId> 
+            <version>5.7.0</version>
+        </dependency>
+
+        <dependency> 
+            <groupId>junit</groupId> 
+            <artifactId>junit</artifactId> 
+            <version>4.12</version>
+        </dependency>
+    </dependencies>
+
+</project>

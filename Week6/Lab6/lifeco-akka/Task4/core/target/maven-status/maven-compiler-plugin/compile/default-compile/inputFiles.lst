@@ -1,0 +1,9 @@
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/core/AbstractQuotationService.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/message/QuotationMessage.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/message/MySerializable.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/core/Quotation.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/message/RegisterMessage.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/message/ClientMessage.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/message/OfferMessage.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/core/ClientInfo.java
+/Users/dawidskraba/Desktop/UCD/Distributed_Sys/Week6/Lab6/lifeco-akka/Task4/core/src/main/java/service/message/ClientInfoMessage.java

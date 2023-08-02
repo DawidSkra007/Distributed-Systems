@@ -1,0 +1,17 @@
+version: '3.6'
+services:
+  auldfellas:
+    build: auldfellas
+
+  girlsallowed:
+    build: girlsallowed
+
+  dodgygeezers:
+    build: dodgygeezers
+
+  broker:
+    build: broker
+    ports:
+      - "8083:8083"
+    environment:
+      - ENDPOINTS=http://girlsallowed:8081/quotations http://dodgygeezers:8082/quotations http://auldfellas:8080/quotations
